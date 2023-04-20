@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    background-color: black;
+    color: #FFF226;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF226;
+}
+
+.lien a{
+    margin: 20px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+footer img{
+    filter: invert(87%) sepia(89%) saturate(1114%) hue-rotate(331deg) brightness(108%) contrast(105%);
+    margin: 15px;
+}
+
+h1{
+    font-size: 3em;
+}

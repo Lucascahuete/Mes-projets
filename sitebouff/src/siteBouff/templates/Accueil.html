@@ -1,0 +1,43 @@
+{% load static %}
+<html lang="fr">
+<head>
+    <meta charset="utf-8" >
+    <title>Accueil - Les Bouff</title>
+    <link href="{% static 'style/style.css'%}" rel="stylesheet" >
+    <link href="{% static 'style/accueil.css'%}" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="logo-bouff-header" src="{% static 'images/logo-bouff.png'%}" alt="Logo Bouff">
+            <div class="lien">
+                <a class="accueil" href="Accueil.html">Accueil</a>
+                <a class="jeux" href="jeux.html">Jeux</a>
+                <a class="a-propos" href="a-propos.html">A propos</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <img class="logo-bouff" src="{% static 'images/logo-bouff.png'%}" alt="Logo Bouff">
+        </section>
+    </main>
+    <footer>
+        <div>
+            <a target="_blank" href="https://twitter.com/LesBouff_" class="logo-twitter">
+                <img src="{% static 'images/twitter-99.svg'%}" alt="Twitter Logo" height="62px" width="80px">
+            </a>
+            <a target="_blank" href="https://www.tiktok.com/@lesbouff_" class="logo-tiktok">
+                <img src="{% static 'images/tiktok-logo-4502.svg'%}" alt="Tiktok Logo" height="62px" width="54px">
+            </a>
+            <a target="_blank" href="https://www.twitch.tv/lesbouff_" class="logo-twitch">
+                <img src="{% static 'images/twitch-4768.svg'%}" alt="Twitch Logo" height="62px" width="62px">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

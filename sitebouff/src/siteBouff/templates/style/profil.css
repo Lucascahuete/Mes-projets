@@ -1,0 +1,58 @@
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 300px;
+}
+
+.photo img{
+    border-radius: 50px;
+}
+
+.pseudo{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 75px;
+    padding-right: 75px;
+    background-color: #FFF226;
+    color: black;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.stat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat-jeux{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.ligne{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    height: 25px;
+    width: 100px;
+    padding: 5px;
+    background-color: #FFF226;
+    color: black;
+    border-radius: 20px;
+    margin: 15px;
+}

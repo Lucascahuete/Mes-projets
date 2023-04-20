@@ -1,0 +1,72 @@
+.a-propos{
+    text-decoration: underline;
+}
+
+.grid-presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.grid-premiere-ligne,
+.grid-deuxieme-ligne{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.grid-premiere-ligne img,
+.grid-deuxieme-ligne img{
+    margin: 25px;
+}
+
+.photo-nom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    margin: 20px;
+}
+
+.lien-profil img{
+    border-radius: 15px;
+}
+
+.lien-profil {
+    position: relative;
+  }
+  
+  .photo-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+  }
+  
+  .lien-profil:hover .photo-hover {
+    display: flex;
+  }
+
+  .grid-presentation a{
+    display: block;
+  }

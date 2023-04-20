@@ -1,0 +1,17 @@
+.accueil{
+    text-decoration: underline;
+}
+
+.logo-bouff{
+    height: 250px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

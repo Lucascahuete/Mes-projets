@@ -1,0 +1,15 @@
+.jeux{
+    text-decoration: underline;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.qui-a-dit-ca{
+    background-color: #FFF226;
+    padding: 250px;
+    margin: 50px;
+    color: black;
+}
