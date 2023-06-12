@@ -1,5 +1,7 @@
 # Mes-projets
 
+Lors de mon autoformation j'ai réalisé de nombreux projets et je vous en présente quelque 'un 
+
 #ConfessBouff
 Ce projet est mon premier projet perso qui est un sous-forme de petits jeux, le but est que chaque personne écrit des anecdotes puis ces anecdotes sont ressortie mélanger 
 et l'on doit deviner à qui appartient cette anecdote j'ai donc séparé l'application en deux parties la partie ou l'on écrit l'anecdote et la partie quiz.
